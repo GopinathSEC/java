@@ -1,0 +1,20 @@
+ADDITION OF TWO NUMBERS
+    
+CODE:
+import java.util.*;
+public class add
+{
+    public static void main(String[] args)
+    {
+        Scanner sc=new Scanner(System.in);    // TO GET USER INPUT
+        int num1=sc.nextInt();
+        int num2=sc.nextInt();
+        System.out.print("ADDITION OF 2 NUMBERS : ");
+        System.out.print(num1+num2);
+     }
+}
+
+INPUT:
+ 6 7
+OUTPUT:
+ 13
