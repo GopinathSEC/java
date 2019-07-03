@@ -1,0 +1,28 @@
+SUBTRACTION OF TWO NUMBERS
+
+CODE:
+
+import java.util.*;
+public class sub
+{
+    public static void main(String[] args)
+    {
+        Scanner sc=new Scanner(System.in);
+        int num1=sc.nextInt();
+        int num2=sc.nextInt();
+        System.out.print("SUBTRACTION OF TWO NUMBERS : ");
+        System.out.print((num1>num2)?(num1-num2):(num2-num1));
+     }
+}
+
+INPUT:
+13 7
+
+OUTPUT:
+SUBTRACTION OF TWO NUMBERS : 6
+
+INPUT:
+2 5
+
+OUTPUT:
+SUBTRACTION OF TWO NUMBERS : 3
