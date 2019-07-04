@@ -1,0 +1,43 @@
+
+
+CODE:
+import java.util.*;
+public class Hello
+{
+    public static void main(String[] args)
+    {
+        Scanner sc=new Scanner(System.in);
+        int N=sc.nextInt();
+        int[][] matrix=new int[N][N];            
+        for(int ctr1=0;ctr1<N;ctr1++)
+        {
+            for(int ctr2=0;ctr2<N;ctr2++)
+            {
+                matrix[ctr1][ctr2]=sc.nextInt();
+            }
+        }
+        for(int ctr1=0;ctr1<N;ctr1++)
+        {
+            for(int ctr2=0;ctr2<N;ctr2++)
+            {
+                System.out.print(matrix[ctr2][ctr1]+" ");
+            }
+            System.out.println();
+        }
+     }
+}
+
+INPUT:
+5
+1 2 3 4 5 
+6 7 8 9 10
+11 12 13 14 15
+16 17 18 19 20
+21 22 23 24 25
+
+OUTPUT:
+1 6 11 16 21 
+2 7 12 17 22 
+3 8 13 18 23 
+4 9 14 19 24 
+5 10 15 20 25
